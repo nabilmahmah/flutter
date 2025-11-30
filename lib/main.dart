@@ -10,6 +10,6 @@ class Home extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(home: HomeView(), theme: ThemeData.dark());
+    return MaterialApp(home: HomeView());
   }
 }
